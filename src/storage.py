@@ -2,7 +2,7 @@ import csv
 import os
 
 def load_records(filepath):
-    """Reads student records from a CSV file into an in-memory dictionary."""
+    #It will read student records from a CSV file.
     records = {}
     if not os.path.exists(filepath):
         return records
@@ -17,7 +17,6 @@ def load_records(filepath):
     return records
 
 def save_records(filepath, records):
-    """Writes the dictionary records back to the CSV file."""
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     with open(filepath, mode='w', newline='', encoding='utf-8') as f:
         fieldnames = ['roll_no', 'name', 'marks']

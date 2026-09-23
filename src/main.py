@@ -38,7 +38,7 @@ def main():
                 print("[ERROR] Invalid marks. Enter a number between 0 and 100.")
                 continue
             records[roll] = {'name': name, 'marks': score}
-            save_records(DATA_PATH, records)  # <-- ADD THIS LINE HERE
+            save_records(DATA_PATH, records)  
             print(f"[SUCCESS] Record for {name} added and saved to CSV.")
         elif choice == '2':
             if not records:
