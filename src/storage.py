@@ -2,7 +2,6 @@ import csv
 import os
 
 def load_records(filepath):
-    #It will read student records from a CSV file.
     records = {}
     if not os.path.exists(filepath):
         return records

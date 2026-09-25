@@ -1,5 +1,4 @@
 def validate_marks(raw_marks):
-    #Validates that entered marks are between 0 and 100.
     try:
         score = float(raw_marks)
         if 0.0 <= score <= 100.0:
