@@ -1,22 +1,23 @@
 # student-management-system
-Student Management System
+A simple Python project for managing student records and performing basic calculations on their marks.
 
-A modular Python-based management and statistical analysis suite developed for **CSE1021: Introduction to Problem Solving and Programming** at VIT Bhopal.
+This project was created for CSE1021: Introduction to Problem Solving and Programming at VIT Bhopal.
 
 ## Features
-* **Validation Engine:** Strict numeric bounds checking and duplicate roll number protection.
-* **Analytical Computations:** Calculates class averages and extracts top/lowest scoring students.
-* **Grade Assignment:** Categorizes marks into standardized academic letter grades.
-* **CSV Persistence:** Automatically loads and writes records to a local CSV file.
-* **Automated Unit Testing:** Includes test coverage for statistical functions.
+1. Add and manage student records
+2. Check that marks are within the valid range
+3. Prevent duplicate roll numbers
+4. Calculate the average marks of the class
+5. Find the students with the highest and lowest marks
+6. Assign grades based on marks
+7. Store student records in a CSV file
 
 ## Technology Stack
-* **Language:** Python 3
-* **Storage:** Comma Separated Values (CSV)
-* **Libraries:** Standard library (`csv`, `os`, `sys`)
+Python 3
+CSV for storing student data
+Python standard libraries such as csv, os, and sys
 
 ## Project Structure
-```text
 Student_Management_System/
 ├── data/
 │   └── students.csv
